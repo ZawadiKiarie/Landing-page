@@ -1,0 +1,85 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+    min-height: 100vh;
+}
+
+.hero {
+    background-color: #4F7942;
+    padding: 16px 200px 80px 200px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.description {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.about {
+    width: 500px;
+    flex-wrap: wrap;
+}
+
+.image-resize {
+    width: 560px;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 60px;
+}
+
+a {
+    text-decoration: none;
+    color: #F9FAF8;
+    font-size: 18px;
+}
+
+.heading {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+    line-height: 60px;
+}
+
+.sub-heading {
+    font-size: 18px;
+    color: #F9FAF8;
+    line-height: 28px;
+    margin-top: 12px;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: blanchedalmond;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 16px;
+}
